@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+body {
+	margin:0;
+	background:url(../img/bg-table.jpg) center top;
+	background-size: 100%;
+	color:#d2d6db;
+	font-family:"Helvetica Neue", "Nimbus Sans L", sans-serif;
+	font-size:12px;
+	line-height:1.62em;
+	text-shadow:0 1px 1px rgba(255, 255, 255, .9);
+}
+
+a {
+	color:#c0c8d6;
+	text-decoration:none;
+}
+
+a:hover {
+	color:#a6b2c8;
+}
+
+
+.audio-skin {
+  max-width: 354px;
+  height: 30px;
+  padding: 204px 43px;
+  margin: 62px 137px;
+  background: url(../img/iwatch2.png) 0 8px no-repeat;
+  background-size: contain;
+  float: right;
+}
+
+/*.audio-skin {
+	max-width:360px;
+	height:30px;
+	padding:160px 188px;
+	margin:0 auto;
+	background:url(../img/iwatch.png) 0 8px no-repeat;
+	background-size: 400px;
+}*/
+
+/*.video-skin {
+	max-width:640px;
+	margin:0 auto 160px;
+	padding:0 40px 8px;
+	background:url(../img/ipad.png) 0 352px no-repeat;
+}
+*/
+
+.video-skin {
+  max-width: 647px;
+  margin: 28px 43px 35px;
+  padding: 31px 62px 100px;
+  background: url(../img/ipad_frame.png) 0 29px no-repeat;
+  background-size: 671px 476px;
+  float: left;
+}
+.mejs-container {
+	box-shadow:0 0 18px rgba(0, 0, 0, .2);
+}
+
+
+audio {
+  width: 129px;
+  height: 30px;
+}

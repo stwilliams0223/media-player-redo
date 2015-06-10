@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width" />
+<title>Scott's Media Player</title>
+<link rel="stylesheet" href="css/styles.css" />
+<link rel="stylesheet" href="css/mediaelementplayer.css" />
+<link rel="stylesheet" href="css/normalize.css">
+
+</head>
+
+<body>
+	<div class="video-skin">
+		<video controls="" width="550" height="400" poster="img/bbb-splash.jpg">
+			<source src="https://dl-web.dropbox.com/get/_cdn/Drawing%20a%20Hole%2C%20Anamorphic%20Illusion%2C%20Trompe-l%27oeil.mp4?_subject_uid=288210045&w=AAAupemGfZK5f4n7HqkS-RvO7i47ciD7vtKpxIhIBSlN3A" type="video/mp4" type="video/mp4" />
+			<source src="https://dl-web.dropbox.com/get/_cdn/Drawing%20a%20Hole%2C%20Anamorphic%20Illusion%2C%20Trompe-l%27oeil.mp4?_subject_uid=288210045&w=AAAupemGfZK5f4n7HqkS-RvO7i47ciD7vtKpxIhIBSlN3A" type="video/mp4" type="video/webm" />
+			<source src="https://dl-web.dropbox.com/get/_cdn/Drawing%20a%20Hole%2C%20Anamorphic%20Illusion%2C%20Trompe-l%27oeil.mp4?_subject_uid=288210045&w=AAAupemGfZK5f4n7HqkS-RvO7i47ciD7vtKpxIhIBSlN3A" type="video/mp4" type="video/ogg" />
+			<object width="640" height="360" type="application/x-shockwave-flash" data="flashmediaelement.swf" />
+				<param name="movie" value="flashmediaelement.swf" />
+				<param name="flashvars" value="controls=true&amp;file=http://media.aviva.com/video/standards/big-buck-bunny-trailer-480p.mp4" />
+				<img src="http://mediaelementjs.com/media/echo-hereweare.jpg" width="640" height="360" alt="No video playback capabilities" />
+			</object>
+		</video>
+	</div>
+
+	<div class="audio-skin">
+		<audio controls="" preload="none" width="100" height="30" src="https://dl-web.dropbox.com/get/_cdn/ed-sheeran-don-t.mp3?_subject_uid=288210045&w=AAAKas6FvdPidVA-fZ7SauADLkoToOYa_UqPlw6uf8jyCg"></audio>
+	</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script src='js/mediaelement.js'></script>
+<script src='js/mediaelementplayer.js'></script>
+
+</body>
+</html>
