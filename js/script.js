@@ -1,4 +1,4 @@
-	jQuery(document).ready(function($) {
+	$(document).ready(function($) {
 		$('audio,video').mediaelementplayer({
 			videoWidth: '100%',
 			videoHeight: '100%',
